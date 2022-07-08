@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Poppins;
+    src:url('../fonts/Poppins-Regular.ttf');
+  }
+  body {
+      font-family: Poppins;
+  }
+  .navbar-brand {
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+  .nav-link {
+      color: rgb(36, 36, 36) !important;
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+  .nav-link:hover {
+      color: #ACACAC !important;
+  }
+ .cover-img {
+     position: absolute;
+     width : 900px;
+     margin-left: 300px;
+     z-index: -1;
+ }
+ .cover-img img {
+     width : 900px;
+
+ }
+ .page-one {
+     position: absolute;
+     font-weight: bold;
+     font-size: 50px;
+     color: #3498DB;
+     margin-top: 200px;
+ }
+ .page-one-2 {
+     position: absolute;
+     font-size: 16px;
+     color: #ACACAC;
+     margin-top: 270px;
+     width : 400px;
+     word-wrap: break-word;
+ }
+ .login-btn {
+     position: absolute;
+     margin-top: 400px;
+ }
+ .btn-login {
+     position: absolute;
+     padding: 7px;
+     background-color: #3498DB;
+     width : 200px;
+     text-align: center;
+     color: #FFF;
+     font-size: 18px;
+     font-weight: 300px;
+     text-decoration: none;
+     border-radius: 25px;
+     box-shadow: 2px 2px 5px #ACACAC;
+ }
+ .btn-login:hover {
+     text-decoration: none;
+     color: white;
+     background-color: #0A79DF;
+ }
+ .img-login img {
+    width: 650px;
+    height: 500px;
+ }
+ .img-login .logo-sekolah{
+     width : 120px;
+     height: 120px;
+     position: absolute;
+     margin-left: 500px;
+     padding: 10px;
+ }
+ .img-login .logo-sekolah img {
+    width : 100px;
+    height: 100px;
+}
+ .form-login {
+    margin-top: 100px;
+ }
+ .form-login h1 {
+     color: #383838;
+     font-weight: bold;
+     margin-left: 55px;
+ }
+ .form-login .form-control {
+     width : 350px;
+     border-radius: 25px;
+     padding: 20px;
+ }
+ #btn-login {
+    background-color: #0045BE;
+    border: none;
+    width : 90%;
+    border-radius: 25px;
+    padding: 10px;
+ }
+ #btn-login:hover {
+     background-color: #023999;
+ }
+#btn-save {
+     background-color: #6454E5;
+     color: white;
+     border-color: #6454E5;
+ }
+ #btn-save:hover {
+    background-color: #5646d3;
+    border-color: #5646d3;
+}
+.card-body .foto-siswa {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width : 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 10px #ACACAC;
+}
+.total-siswa {
+    background: #56CCF2;
+    border: none;
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+    box-shadow: 0px 2px 10px #ACACAC;
+
+}
+.total-siswa h5, .total-siswa h1, .total-laki h5, .total-laki h1, .total-perempuan h5, .total-perempuan h1  {
+    color: white;
+    font-weight: bold;
+}
+.total-laki {
+    background: #4CB8C4;
+    border: none;
+    background: -webkit-linear-gradient(to right, #3CD3AD, #4CB8C4);
+    background: linear-gradient(to right, #3CD3AD, #4CB8C4);
+    box-shadow: 0px 2px 10px #ACACAC;
+}
+.total-perempuan {
+    background: #2193b0;
+    border: none; 
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    box-shadow: 0px 2px 10px #ACACAC;
+}
+.carousel-inner {
+    margin-bottom: 10px;
+}
+.carousel-item img {
+    height: 500px;
+}
